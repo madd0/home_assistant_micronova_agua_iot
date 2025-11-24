@@ -1,5 +1,6 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "name": "Home Assistant Dev",
+    "image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
     "postCreateCommand": "python .devcontainer/init.py",
     "customizations": {
         "vscode": {
